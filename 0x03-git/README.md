@@ -31,7 +31,7 @@ int main(void) {
     _printf("Hello, %s!\n", "World");
     return 0;
 }
-
+```
 ## Supported Format Specifiers
 %c: Character
 %s: String
@@ -45,27 +45,26 @@ int main(void) {
 (Note: Add more format specifiers as needed for your implementation)
 
 Examples
-c
-Copy code
+```c
 _printf("Hello, %s! This is a number: %d\n", "World", 42);
-File Structure
+```
+## File Structure
 main.c: Main program file with example usage.
 main.h: Header file with function prototypes.
-(Add more files as needed)
-How to Compile
-Compile the program using the provided compilation options:
 
-bash
-Copy code
+## How to Compile
+Compile the program using the provided compilation options:
+```c
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o your_executable_name
-Coding Style
+```
+## Coding Style
 The code follows the Betty style guide. Use the provided betty-style.pl and betty-doc.pl scripts for style checking.
 
-Testing
+## Testing
 Testing can be performed using the provided main.c files. However, the main.c files included in this repository may differ from the examples.
 
-Contributing
+## Contributing
 Feel free to contribute to this project by opening issues or submitting pull requests.
 
-License
+## License
 This project is licensed under the MIT License.
